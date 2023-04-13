@@ -62,7 +62,7 @@ namespace Week10Assignment.Models
         {
             using (var context = new BlogContext())
             {
-                Console.WriteLine("What Blog Would you like to remove?(Enter Blog ID)");
+                Console.WriteLine("What Blog Would you like to update?(Enter Blog ID)");
                 VeiwBlogsById();
                 var blogId = Convert.ToInt32(Console.ReadLine());
 
@@ -83,7 +83,7 @@ namespace Week10Assignment.Models
         {
             using (var context = new BlogContext())
             {
-                Console.WriteLine("What Blog Would you like to update?(Enter Blog ID)");
+                Console.WriteLine("What Blog Would you like to remove?(Enter Blog ID)");
                 VeiwBlogsById();
                 var blogId = Convert.ToInt32(Console.ReadLine());
 
